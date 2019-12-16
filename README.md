@@ -1,6 +1,9 @@
 Kode eksempel
 Brede Johnsgård
 
+Webapp i azure - TickTackToe
+
+Dette var en test av flere teknologier som var veldig nytt til meg da det ble laget, så koden og selve produktet er holdt simpel. Det er delt i 2; en frontend side i NodeJs og React som da ble hostet som en statisk webside i azure og koblet opp til DevOps pipelines, og en backend med Nodejs og Typescript, men Socket.IO som hånterer kommunikasjon og tillater spillere å spille sammen over nett, også satt opp i azure. Jeg har fjernet noen filer og connectionstrings, men alt bortsett fra databasen burde funke lokalt
 
 Game Engine med OpenGL (C++)
 
