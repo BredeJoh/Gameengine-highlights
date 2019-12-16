@@ -7,7 +7,7 @@ Dette var en test av flere teknologier som var veldig nytt til meg da det ble la
 
 Game Engine med OpenGL (C++)
 
-Dette var et større prosjekt hvor målet var å kunne implementere og bygge en forståelse av diverse systemer i en spillmotor.Jeg vil fremheve noen av de systemene jeg implementerte ettersom en spillmotor er veldig komplex og fokuset var ikke helhetligheten av spillmotoren, men de individuelle systemene.
+Dette var et større prosjekt hvor målet var å kunne implementere og bygge en forståelse av diverse systemer i en spillmotor. Jeg vil fremheve noen av de systemene jeg implementerte ettersom en spillmotor er veldig komplex og fokuset var ikke helhetligheten av spillmotoren, men de individuelle systemene.
 
 Camera - Dette er en av de mest fundementale systemet som er ansvarlig for å prosjektere 3D space over til skjermen. Det skjer via ViewMatrix som tar oss fra world space til camera space (Dvs. den bruker posisjon og rotasjon til camera). Så har vi projection matrix (her kalt mPerspectiveMatrix) som tar oss fra camera space til screen space. Frustum er en visualiering av området i 3D space som kamera kan se, som også ble brukt til frustumculling for å kunne ignorere rendering av objecter som ikke er synelig.
 
