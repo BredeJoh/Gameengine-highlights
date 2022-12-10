@@ -17,7 +17,7 @@
   "dependencies": {
     "@types/node": "^11.13.8",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "morgan": "^1.9.1",
     "socket.io": "^2.2.0"
   }
